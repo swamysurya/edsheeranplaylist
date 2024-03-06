@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #152850;
+}
+
+.edSheeranBg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: 'Roboto';
+}
+
+.singerName {
+  padding-left: 40px;
+  color: white;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.singertitle {
+  margin: 0px;
+  color: white;
+  font-size: 28px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.searchAndListContainer {
+  padding: 10px 40px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songsPlaylistHeading {
+  color: white;
+  font-size: 24px;
+}
+
+.inputContainer {
+  width: 200px;
+  height: 35px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.inputEle {
+  height: 100%;
+  width: 90%;
+  flex-grow: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  color: white;
+}
+
+.icon {
+  margin-right: 10px;
+  color: white;
+}
+
+.ulcontainer {
+  list-style-type: none;
+  padding-left: 0px;
+  overflow-y: auto;
+  height: 60vh;
+}
+
+.listEle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trackimageContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.trackImage {
+  width: 200px;
+  margin: 10px;
+}
+
+.trackcontent {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.trackName {
+  font-size: 32px;
+}
+
+.tracktitle {
+  margin: 0px;
+  font-size: 26px;
+  color: #3b82f6;
+}
+
+.duraionAndDelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding-right: 30px;
+}
+
+.duration {
+  color: white;
+  font-size: 24px;
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.no-found {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosongs {
+  font-size: 38px;
+  color: white;
+}
